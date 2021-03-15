@@ -1,3 +1,10 @@
+h1,
+h2,
+h3,
+p,
+ul{
+  
+}
 :root {
   --main-bg-color: #2f303a;
   --main-text-color: #757575;
@@ -9,6 +16,11 @@
   --primary--font-weight: 700;
   --secondary--font-weight: 500;
 }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: normal;
@@ -17,9 +29,17 @@ body {
   letter-spacing: 0.03em;
   color: #212121;
 }
+header {
+  border-bottom: 1px solid #ECECEC;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
 .link {
   text-decoration: none;
   color: inherit;
+  bo
 }
 .logo {
   font-family: Raleway, sans-serif;
@@ -33,6 +53,7 @@ body {
 .list {
   list-style-type: none;
 }
+
 .menu-list {
   font-weight: var(--secondary--font-weight);
   line-height: var(--primary-line-height);
@@ -55,6 +76,10 @@ body {
 .contact-link:hover,
 .contact-link:focus {
   color: var(--main-accent-color);
+}
+.section{
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .banner {
   height: 600px;
@@ -154,6 +179,11 @@ address {
 .filter-button:focus {
   background-color: var(--main-accent-color);
   color: var(--main-light-color);
+}
+.border{
+ border-right: 1px solid #EEEEEE;
+ border-bottom: 1px solid #EEEEEE;
+ border-left: 1px solid #EEEEEE;
 }
 .catalog-title {
   font-weight: var(--primary--font-weight);
