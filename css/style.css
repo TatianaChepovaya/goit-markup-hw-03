@@ -3,7 +3,12 @@ h2,
 h3,
 p,
 ul{
-  
+  margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
 :root {
   --main-bg-color: #2f303a;
@@ -16,11 +21,7 @@ ul{
   --primary--font-weight: 700;
   --secondary--font-weight: 500;
 }
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
+
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: normal;
@@ -31,6 +32,8 @@ body {
 }
 header {
   border-bottom: 1px solid #ECECEC;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .container {
   width: 1200px;
@@ -53,7 +56,13 @@ header {
 .list {
   list-style-type: none;
 }
-
+.menu-list,
+.features-list,
+.service-list,
+.team-list{
+ display: flex;
+ flex-direction: row;
+}
 .menu-list {
   font-weight: var(--secondary--font-weight);
   line-height: var(--primary-line-height);
@@ -122,20 +131,27 @@ button {
   width: 1px !important;
   overflow: hidden;
 }
+
 .feature-title {
   font-weight: var(--primary--font-weight);
   line-height: var(--primary-line-height);
   text-transform: uppercase;
+  padding-bottom: 10px;
 }
 .feature-text {
   color: var(--main-text-color);
 }
-.service-title,
-.team-title {
+.title {
   text-align: center;
   font-weight: var(--primary--font-weight);
   font-size: 36px;
   line-height: 1.16;
+  margin-bottom: 50px;
+}
+.feature-item,
+.service-item,
+.team-item {
+ padding-left: 30px;
 }
 .team {
   background-color: var(--bg-light-color);
@@ -146,13 +162,16 @@ button {
   text-align: center;
 }
 .team-item {
-  background-color: var(--main-light-color);
+  background-color: var(--main-light-color) ;
 }
 .team-item-title {
   font-weight: var(--secondary--font-weight);
+  padding-bottom: 10px;
+  padding-top: 30px;
 }
 .team-item-position {
   color: var(--main-text-color);
+  padding-bottom: 30px;
 }
 footer {
   background-color: var(--main-bg-color);
