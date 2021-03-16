@@ -41,7 +41,7 @@ header {
  
 }
 header .logo {
-margin-right: 93px;
+ margin-right: 93px;
 }
 .container {
   width: 1200px;
@@ -250,7 +250,8 @@ address {
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
-  
+    padding-left: 24px;
+  padding-right: 24px;
 }
 .img-catalog {
  display: block;
@@ -276,16 +277,14 @@ address {
   letter-spacing: var(--primary-letter-spacing);
   padding-top: 20px;
   padding-bottom: 4px;
-  padding-left: 24px;
-  padding-right: 24px;
+
 }
 .catalog-filter {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.87;
   color: var(--main-text-color);
-  padding-left: 24px;
   padding-bottom: 20px;
-  padding-right: 24px;
+  
  
 }
