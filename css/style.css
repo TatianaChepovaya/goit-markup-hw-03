@@ -171,7 +171,10 @@ button {
   line-height: 1.16;
   margin-bottom: 50px;
 }
-
+img {
+ display: block;
+ height: auto;
+}
 .team {
   background-color: var(--bg-light-color);
 }
