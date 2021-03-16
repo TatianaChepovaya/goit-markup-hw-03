@@ -138,6 +138,8 @@ button {
   display: block;
   margin: auto;
   margin-top: 30px;
+  border-radius: 4px;
+  border: none;
 }
 .banner-button:hover,
 .banner-button:focus {
@@ -171,10 +173,7 @@ button {
   line-height: 1.16;
   margin-bottom: 50px;
 }
-img {
- display: block;
- height: auto;
-}
+
 .team {
   background-color: var(--bg-light-color);
 }
@@ -241,7 +240,12 @@ address {
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
-  width: 370px;
+  
+}
+.img-catalog {
+ display: block;
+ width: 100%;
+ height: auto;
 }
 .catalog {
   display: flex;
