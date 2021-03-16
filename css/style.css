@@ -41,7 +41,7 @@ header {
  
 }
 header .logo {
-  margin-right: 93px;
+margin-right: 93px;
 }
 .container {
   width: 1200px;
@@ -254,7 +254,7 @@ address {
 }
 .img-catalog {
  display: block;
- width: 100%;
+ max-width: 100%;
  height: auto;
 }
 .catalog {
