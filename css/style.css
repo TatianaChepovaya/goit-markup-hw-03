@@ -157,7 +157,9 @@ button {
   width: 1px !important;
   overflow: hidden;
 }
-
+.feature-item{
+ margin-right: 31px;
+}
 .feature-title {
   font-weight: var(--primary--font-weight);
   line-height: var(--primary-line-height);
