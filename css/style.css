@@ -114,6 +114,7 @@ header .contact-link {
 .banner {
   height: 600px;
   background-color: var(--main-bg-color);
+  text-align: center;
 }
 .banner-title {
   font-weight: 900;
@@ -121,7 +122,6 @@ header .contact-link {
   line-height: 1.36;
   letter-spacing: var(--primary-letter-spacing);
   text-transform: uppercase;
-  text-align: center;
   color: var(--main-light-color);
   padding-top: 200px;
 }
@@ -133,12 +133,10 @@ button {
   font-weight: var(--primary--font-weight);
   font-size: 16px;
   line-height: 1.87;
-  text-align: center;
   letter-spacing: var(--primary-letter-spacing);
   color: var(--main-light-color);
   background-color: var(--main-accent-color);
-  display: block;
-  margin: auto;
+  display: inline-block;
   margin-top: 30px;
   padding: 10px 32px;
   border-radius: 4px;
