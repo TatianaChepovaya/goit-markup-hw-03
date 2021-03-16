@@ -38,6 +38,10 @@ header {
   border-bottom: 1px solid #ececec;
   padding-top: 32px;
   padding-bottom: 32px;
+  height: 80px;
+}
+header .logo {
+  margin-right: 93px;
 }
 .container {
   width: 1200px;
