@@ -43,6 +43,7 @@ header {
 header .logo {
  margin-right: 93px;
 }
+
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -64,10 +65,32 @@ header .logo {
 .list {
   list-style-type: none;
 }
+
+
+
+
+.nav-menu {
+  margin-right: 331px;
+}
+.contact-item {
+ padding-left: 50px;
+}
+.contact-item:first-child{
+  padding-left: 0;
+}
+.menu-item:first-child{
+  padding-left: 0;
+}
+.menu-item:last-child {
+  padding-right: 0;
+}
+
+
+
+
 .nav {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   align-items: baseline;
 }
 .features-list,
@@ -96,9 +119,7 @@ header .logo {
 header .contact-list {
   display: flex;
 }
-header .contact-link {
-  padding-left: 50px;
-}
+
 .contact-list {
   font-weight: var(--secondary--font-weight);
   line-height: var(--primary-line-height);
