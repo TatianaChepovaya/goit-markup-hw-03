@@ -37,7 +37,7 @@ body {
 header {
   border-bottom: 1px solid #ececec;
   padding-top: 25px;
-  height: 80px;
+  padding-bottom: 25px;
  
 }
 header .logo {
