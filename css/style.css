@@ -32,16 +32,14 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #212121;
-  
 }
 header {
   border-bottom: 1px solid #ececec;
   padding-top: 25px;
   padding-bottom: 25px;
- 
 }
 header .logo {
- margin-right: 93px;
+  margin-right: 93px;
 }
 
 .container {
@@ -66,38 +64,30 @@ header .logo {
   list-style-type: none;
 }
 
-
-
-
 .nav-menu {
   margin-right: 331px;
 }
 .contact-item {
- padding-left: 50px;
+  padding-left: 50px;
 }
-.contact-item:first-child{
+.contact-item:first-child {
   padding-left: 0;
 }
-.menu-item:first-child{
+.menu-item:first-child {
   padding-left: 0;
 }
 .menu-item:last-child {
   padding-right: 0;
 }
 
-
-
-
 .nav {
   display: flex;
-  flex-direction: row;
   align-items: baseline;
 }
 .features-list,
 .service-list,
 .team-list {
   display: flex;
-  flex-direction: row;
   justify-content: space-evenly;
 }
 .menu-list {
@@ -182,8 +172,8 @@ button {
   width: 1px !important;
   overflow: hidden;
 }
-.feature-item{
- margin-right: 30px;
+.feature-item {
+  margin-right: 30px;
 }
 .feature-title {
   font-weight: var(--primary--font-weight);
@@ -233,7 +223,7 @@ footer {
 footer .logo {
   color: var(--main-light-color);
 }
-footer .contact-link{
+footer .contact-link {
   display: block;
   margin-bottom: 9px;
 }
@@ -271,13 +261,13 @@ address {
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
-    padding-left: 24px;
+  padding-left: 24px;
   padding-right: 24px;
 }
 .img-catalog {
- display: block;
- max-width: 100%;
- height: auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 .catalog {
   display: flex;
@@ -298,7 +288,6 @@ address {
   letter-spacing: var(--primary-letter-spacing);
   padding-top: 20px;
   padding-bottom: 4px;
-
 }
 .catalog-filter {
   font-weight: normal;
@@ -306,6 +295,4 @@ address {
   line-height: 1.87;
   color: var(--main-text-color);
   padding-bottom: 20px;
-  
- 
 }
