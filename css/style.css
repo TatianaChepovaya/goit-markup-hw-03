@@ -31,10 +31,6 @@ header {
   padding-top: 25px;
   padding-bottom: 25px;
 }
-header .logo {
-  margin-right: 93px;
-}
-
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -57,19 +53,12 @@ header .logo {
   list-style-type: none;
 }
 
-.nav-menu {
-  margin-right: 331px;
-}
 .contact-item {
   margin-left: 50px;
 }
 .contact-item:first-child {
   margin-left: 0;
 }
-.menu-item:last-child {
-  margin-right: 0;
-}
-
 .nav {
   display: flex;
   align-items: center;
@@ -82,12 +71,16 @@ header .logo {
 }
 .menu-list {
   display: flex;
+  margin-left: 93px;
   font-weight: var(--secondary--font-weight);
   line-height: var(--primary-line-height);
   letter-spacing: 0.02em;
 }
 .menu-item {
   margin-right: 50px;
+}
+.menu-item:last-child {
+  margin-right: 0;
 }
 .menu-item:hover,
 .menu-item:focus {
@@ -98,6 +91,13 @@ header .logo {
 }
 header .contact-list {
   display: flex;
+  margin-left: auto;
+}
+.contact-item {
+  margin-left: 50px;
+}
+.contact-item:first-child {
+  margin-left: 0;
 }
 
 .contact-list {
