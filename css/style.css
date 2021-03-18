@@ -61,16 +61,13 @@ header .logo {
   margin-right: 331px;
 }
 .contact-item {
-  padding-left: 50px;
+  margin-left: 50px;
 }
 .contact-item:first-child {
-  padding-left: 0;
-}
-.menu-item:first-child {
-  padding-left: 0;
+  margin-left: 0;
 }
 .menu-item:last-child {
-  padding-right: 0;
+  margin-right: 0;
 }
 
 .nav {
@@ -90,7 +87,7 @@ header .logo {
   letter-spacing: 0.02em;
 }
 .menu-item {
-  padding: 0 25px;
+  margin-right: 50px;
 }
 .menu-item:hover,
 .menu-item:focus {
