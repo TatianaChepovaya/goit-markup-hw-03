@@ -67,7 +67,7 @@ header {
 .service-list,
 .team-list {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 .menu-list {
   display: flex;
@@ -247,18 +247,7 @@ address {
   background-color: var(--main-accent-color);
   color: var(--main-light-color);
 }
-.border {
-  border-right: 1px solid #eeeeee;
-  border-bottom: 1px solid #eeeeee;
-  border-left: 1px solid #eeeeee;
-  padding-left: 24px;
-  padding-right: 24px;
-}
-.img-catalog {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
+
 .catalog {
   display: flex;
   flex-wrap: wrap;
@@ -270,7 +259,18 @@ address {
   margin-top: 30px;
   flex-basis: calc(100% / 3 - 30px);
 }
-
+.img-catalog {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.border {
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  padding-left: 24px;
+  padding-right: 24px;
+}
 .catalog-title {
   font-weight: var(--primary--font-weight);
   font-size: 18px;
